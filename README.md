@@ -20,7 +20,9 @@ pip install opencv-python
 File Directories:
 ```bash
 |-- README.md
+|-- LICENSE
 |-- Computer Vision
-    |-- Images
-    |-- facial_recognition.py
+    |-- DSCN4601.JPG
+    |-- basics.py
+    |-- haarcascade_frontalface_default.xml
 ```
