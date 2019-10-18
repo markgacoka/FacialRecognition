@@ -18,8 +18,9 @@ pip install opencv-python
 #Time comes pre-installed in Python
 ```
 File Directories:
-
+```bash
 |-- README.md
 |-- Computer Vision
     |-- Images
     |-- facial_recognition.py
+```
