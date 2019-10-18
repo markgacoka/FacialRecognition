@@ -6,14 +6,13 @@ Highly Robust Facial Recognition Software in Python <br/>
 * OpenCV
 * Time
 
-```python
-#Install OpenCV Library if you need both main and contrib modules
-pip install opencv-contrib-python 
-pip install --upgrade pip
+            #Install OpenCV Library if you need both main and contrib modules
+            pip install opencv-contrib-python 
+            pip install --upgrade pip
 
-OR
-#Install OpenCV Library
-pip install opencv-python
+            OR
+            #Install OpenCV Library
+            pip install opencv-python
 
 #Time comes pre-installed in Python
 ```
