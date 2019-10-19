@@ -20,8 +20,8 @@ File Directories:
 ```bash
 |-- README.md
 |-- LICENSE
-|-- Computer Vision
+|-- Basics
     |-- DSCN4601.JPG
-    |-- basics.py
+    |-- facial_recognition.py
     |-- haarcascade_frontalface_default.xml
 ```
