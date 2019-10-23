@@ -14,7 +14,7 @@ Highly Robust Facial Recognition Software in Python <br/>
             #Install OpenCV Library
             pip install opencv-python
 
-#Time comes pre-installed in Python
+            #Time comes pre-installed in Python
 ```
 File Directories:
 ```bash
