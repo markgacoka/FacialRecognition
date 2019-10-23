@@ -10,7 +10,8 @@ Highly Robust Facial Recognition Software in Python <br/>
             pip install opencv-contrib-python 
             pip install --upgrade pip
 
-            OR
+OR <br/>
+
             #Install OpenCV Library
             pip install opencv-python
 
