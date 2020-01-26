@@ -2,32 +2,31 @@
 import cv2
 
 #Loading images in OpenCV
-img = cv2.imread("Images\\DSCN4569.JPG", 1) #Loads an RGB image
-img2 = cv2.imread("\\Images\\DSCN4569.JPG", 0) #Loads a grayscale image
+img = cv2.imread("photo.jpg", 1) #Loads an RGB image
 print(img.shape) #Prints the dimensions and channels present (pix length, pix w, rgb?)
 
 print(img) #Prints a numpy array of the image 3D matrix if RGB and 2D matrix if grayscale
 
 # Displaying the image
-cv2.imshow("DSCN4569", img) #Displays the image file
+cv2.imshow("Photo", img) #Displays the image file
 cv2.waitKey(0) #waits for key input and closes the window
 cv2.waitKey(2000) #waits for 2000 milliseconds and closes the window
 cv2.destroyAllWindows() #Close the image window
 
 #Resizing the image
 resized = cv2.resize(img, (600, 600))
-cv2.imshow("DSCN4569", resized)
+cv2.imshow("Photo", resized)
 cv2.waitKey(2000) #waits for 2000 milliseconds and closes the window
 cv2.destroyAllWindows() #Close the image window
 # More robust method
 resized2 = cv2.resize(img, (int(img.shape[1]/2), int(img.shape[0]/2))) #resize the image by diving its dimensions in half
-cv2.imshow("DSCN4569", resized) #Display the resized image
+cv2.imshow("Photo", resized) #Display the resized image
 cv2.waitKey(2000) #wait for 2000 ms and close
 
 # Face Detection
 # Create a cascade classifier that will contain the features of the face
 face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml") #Classifier used to detect faces, in this case it only detect front faces
-img = cv2.imread("DSCN4601.JPG") #reads the image file and stores it in img
+img = cv2.imread("photo.jpg") #reads the image file and stores it in img
 gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY) #changes the colored image to grayscale
 faces = face_cascade.detectMultiScale(gray_img, scaleFactor = 1.05, minNeighbors = 50) #runs cascade classifiers with high probability of face detection
 
