@@ -23,8 +23,14 @@ pip install --upgrade pip
 ```bash
 |-- README.md
 |-- LICENSE
-|-- Basics
-    |-- DSCN4601.JPG
+|-- Media Manipulation
+    |-- open_camera.py (Opens the camera)
+    |-- open_image.py (Opens any image chosen)
+    |-- open_video.py (Opens any video)
+    |-- take_photo.py (Opens the camera and takes a photo)
+    |-- take_video.py (Opens a video and takes a video until you cancel it)
+|-- Detecing Faces
+    |-- photo.JPG
     |-- facial_recognition.py
     |-- haarcascade_frontalface_default.xml
 ```
