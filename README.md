@@ -1,23 +1,25 @@
 # FaceRecognition
 Highly Robust Facial Recognition Software in Python <br/>
-* A Trained Facial Recognition Model in Python
+* Structured application for training and testing face models as well as opening files and videos to detect and reognize faces.
 
-#### Dependencies:
-* OpenCV
-* Time
+## Dependencies:
+* [OpenCV](https://docs.opencv.org/)
+* [Time](https://docs.python.org/3/library/time.html) 
+* [Numpy](https://docs.scipy.org/doc/numpy/reference/)
 
-            #Install OpenCV Library if you need both main and contrib modules
-            pip install opencv-contrib-python 
-            pip install --upgrade pip
-
-OR <br/>
-
-            #Install OpenCV Library
-            pip install opencv-python
-
-            #Time comes pre-installed in Python
+#### Install OpenCv Library
 ```
-File Directories:
+pip install opencv-python
+```
+
+If that does not wor, you can try installing the unofficial models from contributors
+
+```
+pip install opencv-contrib-python 
+pip install --upgrade pip
+```
+
+#### File Directories on GitHub
 ```bash
 |-- README.md
 |-- LICENSE
@@ -26,3 +28,12 @@ File Directories:
     |-- facial_recognition.py
     |-- haarcascade_frontalface_default.xml
 ```
+
+### PROJECT UNDERWAY:
+* Finished drafting the UI and app flow
+* Finished coding the subsystems for the full app
+
+### TODO:
+* Code the UI and connect the screens
+* Add train feature in the software
+* Compile to .exe
