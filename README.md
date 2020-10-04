@@ -1,6 +1,6 @@
 # FaceRecognition
 Highly Robust Facial Recognition Software in Python <br/>
-* Structured application for training and testing face models as well as opening files and videos to detect and reognize faces.
+* Structured application for training and testing face models as well as opening files and videos to detect and recognize faces.
 
 ## Dependencies:
 * [OpenCV](https://docs.opencv.org/)
